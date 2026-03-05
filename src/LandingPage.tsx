@@ -109,6 +109,14 @@ const plans = [
     features: ['Access to all Teachers', '5 messages per month', 'Basic support'],
   },
   {
+    id: 'basic',
+    name: 'Essential',
+    description: 'Perfect for getting started',
+    price: 0.99,
+    messagesPerMonth: 25,
+    features: ['Access to all Teachers', '25 messages per month', 'Basic support'],
+  },
+  {
     id: 'pro',
     name: 'Seeker',
     description: 'For serious learners',
@@ -116,14 +124,6 @@ const plans = [
     messagesPerMonth: 100,
     isPopular: true,
     features: ['Access to all Teachers', '100 messages per month', 'Priority support', 'Custom chat history'],
-  },
-  {
-    id: 'basic',
-    name: 'Essential',
-    description: 'Perfect for getting started',
-    price: 0.99,
-    messagesPerMonth: 25,
-    features: ['Access to all Teachers', '25 messages per month', 'Basic support'],
   },
 ];
 
